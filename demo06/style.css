@@ -1,0 +1,9 @@
+.Triangle{
+    border-top: 50px solid transparent;
+    border-right: 50px solid #f66;
+    border-bottom: 50px solid transparent;
+    border-left: 0px solid #66f;
+    width: 0px;
+    height: 0px;
+    margin: 50px auto;
+}

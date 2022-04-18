@@ -1,0 +1,18 @@
+.demo{
+    margin: 30px auto;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    height: 50px;
+    text-overflow: clip;
+    overflow: hidden;
+}
+.demo1{
+    margin: 0px auto;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; /*自动换行*/
+}

@@ -1,0 +1,50 @@
+#cardioid{
+    margin: 100px auto;
+    height: 90px;
+    width: 56px;
+    background-color: red;
+    border-radius: 28px 28px 0 0;
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: relative;
+}
+
+#cardioid::after{
+    content: '';
+    height: 90px;
+    width: 56px;
+    background-color: red;
+    border-radius: 28px 28px 0 0 ;
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 55px;
+}
+
+
+
+
+
+#egg{
+    width: 126px;
+    height: 180px;
+    background-color: #fa3;
+    margin: 100px auto;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}

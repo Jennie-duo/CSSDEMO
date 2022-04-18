@@ -1,0 +1,23 @@
+#background{
+    margin: 100px auto;
+    width: 900px;
+    height: 600px;
+    background-image: url(./img/background.jpeg);
+    border-radius: 30px;
+    position: relative;
+}
+#content{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    background-color: #fff;
+    opacity: 0.8;
+    color: rgb(94, 90, 90);
+    top: 150px;
+    left: 150px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    -webkit-box-shadow: 3px 3px 5px #888; 
+    box-shadow: 3px 3px 5px #888;
+}
